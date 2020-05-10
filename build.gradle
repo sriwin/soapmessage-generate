@@ -1,0 +1,32 @@
+plugins {
+    id 'application'
+    id 'java'
+}
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    // google
+    implementation 'com.google.guava:guava:28.1-jre'
+
+    // commons-io
+    compile group: 'commons-io', name: 'commons-io', version: '2.6'
+
+    // jackson-dataformat-xml
+    compile "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.11.0"
+
+    // lombok
+    compileOnly 'org.projectlombok:lombok:1.18.12'
+    annotationProcessor 'org.projectlombok:lombok:1.18.12'
+
+    // junit
+    testImplementation 'junit:junit:4.12'
+}
+
+application {
+    // Define the main class for the application.
+    mainClassName = 'com.sriwin.jaxb.App'
+}

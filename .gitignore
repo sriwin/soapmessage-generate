@@ -1,0 +1,106 @@
+############################################
+#### gradle
+############################################
+.gradle
+!gradle/wrapper/gradle-wrapper.jar
+
+############################################
+#### Maven
+############################################
+!.mvn/wrapper/maven-wrapper.jar
+
+############################################
+#### File in src folders
+############################################
+!**/src/main/**
+!**/src/test/**
+
+############################################
+#### Folders
+############################################
+out/
+logs/
+build/
+target/
+test-output/
+
+############################################
+### folder with . extension
+############################################
+.idea
+.project
+.settings
+.classpath
+.factorypath
+.springBeans
+.sts4-cache
+.apt_generated
+.vscode/launch.json
+
+############################################
+### folder with . extension
+############################################
+.settings/
+.idea/
+.vscode/
+
+############################################
+### IntelliJ IDEA ###
+############################################
+.idea/**/shelf
+.idea/**/tasks.xml
+.idea/**/dynamic.xml
+.idea/**/dataSources/
+.idea/**/dictionaries
+.idea/**/workspace.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+.idea/**/dataSources.ids
+.idea/**/sqlDataSources.xml
+.idea/**/dataSources.local.xml
+
+############################################
+###
+############################################
+/dist/
+/.idea/
+/nbdist/
+/nbbuild/
+/.nb-gradle/
+/nbproject/private/
+
+############################################
+#### ignore files
+############################################
+*.db
+*.bak
+*.bat
+*.csv
+*.dat
+*.ear
+*.iml
+*.ipr
+*.iws
+*.log
+*.lst
+*.nar
+*.rar
+*.war
+*.zip
+*.xml
+*.ctxt
+*.json
+*.html
+*.meta
+*.idea
+*.hprof
+*.class
+*.tar.gz
+
+############################################
+#### ignore files
+############################################
+HELP.md
+readme.txt
+extent.html
+uiDesigner.xml
